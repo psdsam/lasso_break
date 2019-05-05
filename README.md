@@ -17,5 +17,7 @@ mylarsp: This is the function implementing the algorithm proposed in the paper i
 %Robert Tibshirani "A significance test for the lasso"](http://statweb.stanford.edu/~tibs/ftp/covtest.pdf)
 3) False Discovery Control by [Max Grazier G'Sell, Stefan Wager, Alexandra Chouldechova and Robert Tibshirani in "Sequential selection procedures and false discovery rate control"](http://www.stat.cmu.edu/~ryantibs/journalclub/gsell_2014.pdf). 
  
+example: This scripts implment our method with one simulation example and one real data example. The plots for both examples are displayed below.
 
+![alt text](https://github.com/psdsam/lasso_break/blob/master/plots/plot2.png)
 
