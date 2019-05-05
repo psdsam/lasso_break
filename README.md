@@ -18,6 +18,9 @@ mylarsp: This is the function implementing the algorithm proposed in the paper i
 3) False Discovery Control by [Max Grazier G'Sell, Stefan Wager, Alexandra Chouldechova and Robert Tibshirani in "Sequential selection procedures and false discovery rate control"](http://www.stat.cmu.edu/~ryantibs/journalclub/gsell_2014.pdf). 
  
 example: This scripts implment our method with one simulation example and one real data example. The plots for both examples are displayed below.
-
+Simulation example with y = exp(x) + 5(x>-0.5) + 5(x>1)+\epsilon     
 ![alt text](https://github.com/psdsam/lasso_break/blob/master/plots/plot2.png)
 
+Real data example from [Lee (2008). "Randomized experiments from non-random selection in
+U.S. House elections"](https://www.princeton.edu/~davidlee/wp/RDrand.pdf)
+![alt text](https://github.com/psdsam/lasso_break/blob/master/plots/plot.png)
