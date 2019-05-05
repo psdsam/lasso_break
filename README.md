@@ -6,4 +6,16 @@ If you use this package, please cite the article by Backus and Peng below:
 
 The functions in this package are:
 
-detectdisc: This is the main function for the test using polynomial basis and 10-folded crossvalidation. The input is independent variable             X, dependent variable Y and False Discovery Rate (FDR) control $\alpha$
+detectdisc: This is the main function for the test using polynomial basis and 10-folded crossvalidation. The input is independent variable X, dependent variable Y and False Discovery Rate (FDR) control alpha. The out put is the detected location of discontinuities and plot.
+
+lassocovtest: This is the main function for the test. Users can customize on the basis functions, cross-validation, maxmium number of discontinuities allowed and support trimming within this function.
+
+mylarsp: This is the function implementing the algorithm proposed in the paper including a moddified combination of 
+1) LARs algorithm by [Bradley Efron, Trevor Hastie, Iain Johnstone and Robert Tibshirani 
+"Least Angle Regression"](http://statweb.stanford.edu/~tibs/ftp/lars.pdf) and code modified from [Sung Soo Kim's work](https://www.mathworks.com/matlabcentral/fileexchange/23186-lars-algorithm), 
+2) Lasso covariance test by [Richard Lockhart, Jonathan Taylor, Ryan J. Tibshirani, 
+%Robert Tibshirani "A significance test for the lasso"](http://statweb.stanford.edu/~tibs/ftp/covtest.pdf)
+3) False Discovery Control by [Max Grazier G'Sell, Stefan Wager, Alexandra Chouldechova and Robert Tibshirani in "Sequential selection procedures and false discovery rate control"](http://www.stat.cmu.edu/~ryantibs/journalclub/gsell_2014.pdf). 
+ 
+
+
