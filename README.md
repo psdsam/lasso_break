@@ -6,9 +6,9 @@ If you use this package, please cite the our article below:
 
 The functions in this package are:
 
-detectdisc: This is the main function for the test using polynomial basis and 10-folded crossvalidation. The input is independent variable X, dependent variable Y and False Discovery Rate (FDR) control alpha. The out put is the detected location of discontinuities and plot.
+detectdisc: This is the main function for the test using a polynomial basis and 10-folded cross validation. The inputs are: an independent variable X, a dependent variable Y, and False Discovery Rate (FDR) control alpha. The outputs are the detected location of discontinuities and plot.
 
-lassocovtest: This is the main function for the test. Users can customize on the basis functions, cross-validation, maxmium number of discontinuities allowed and support trimming within this function.
+lassocovtest: This is the main function for the test. Users can customize the basis functions, cross-validation, the maxmium number of discontinuities allowed and support trimming within this function.
 
 mylarsp: This is the function implementing the algorithm proposed in the paper including a moddified combination of 
 1) LARs algorithm by [Bradley Efron, Trevor Hastie, Iain Johnstone and Robert Tibshirani 
